@@ -1,10 +1,31 @@
-Reminder
-
-Human brain is not perfect and needs someone to remind him sometimes at particular time to perform particular event, so here my script helps in following way:
-
-### Reminding you to perform particular event by sending SMS at particular date and time as set by you.
-
-Why i choose SMS?
-In todays world people are more connected with Mobile Phone,so i choose to send SMS to remind him about event/task to complete
+# Expense-Tracker
 
 
+
+## About
+
+Expense-Tracker is a simple web application based on AngularJS and Bootstrap for the frontend, and Node.js with MongoDB for the backend.
+It allow you to add expense records.
+It can be used my multiple users and application is multi-tenant.
+
+## Installation
+
+Clone the project
+
+go inside the api folder: `cd api`
+
+And install all the npm dependencies: `npm install express mongoose passport passport-local bcrypt`
+
+## Run
+
+Go to the api folder and start  nodejs server: `node app.js`
+
+open your browser on `http://localhost/path/app/`
+
+
+## Stack
+
+* AngularJS
+* Bootstrap
+* MongoDB
+* Node.js
